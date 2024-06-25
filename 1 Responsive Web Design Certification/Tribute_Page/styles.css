@@ -1,0 +1,37 @@
+#title,p{ 
+  text-align:center;
+}
+#title{
+  margin-top:60px;
+  font-size:2.5rem;
+}
+#image{
+  display:block;
+  max-width:100%;
+  margin:20px auto;
+  
+}
+body{
+  color: #333;
+  font-family:sans-serif;
+  background-color: #eee;
+}
+.colors{
+  background-color:white;
+  text-align:center;
+}
+#tribute-info{
+  margin:0 auto;
+  font-size:16px;
+  max-width:550px;
+  line-height:1.6;
+}
+h3{
+  text-align:center;
+}
+cite{
+  display:block;
+  text-align:left;
+  padding-top:50px;
+  margin:0 auto;
+}
