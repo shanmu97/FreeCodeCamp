@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">
+    Thank you for taing the time to help us improve the platform
+    </p>
+<form id="survey-form">
+  <label for="name"></label>
+  <input type="text" id="name" name="name-label" placeholder="Enter your name" required>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+  <label for="number"  name="age">Age<spam>(optional)</spam></label>
+  <input type="number" id="number" placeholder="Age" min="10" max="99">
+  <label for="dropdown">Which option best describes your current role?</label>
+  <label id="name-label">namelabel</label>
+    <label id="email-label">email label</label> 
+    <label id="number-label">number label</label>
+  <select id="dropdown" name="dropdown" >
+    <option value="">Select current role</option>
+    <option value="1">Student</option>
+    <option value="2">Full Time Job</option>
+    <option value="3">Full Time Learner</option>
+    <option value="4">Prefer not to say</option>
+    <option value="5">Other</option>
+  </select>
+  <p>Would you recommend freeCodeCamp to a friend?</p>
+  <label for="yes"><input type="radio" id="Defenitely" name="Defenitely" value="Defenitely"> Defenitely</label>
+  
+  <label for="Maybe"><input type="radio" id="Maybe" name="Defenitely" value="Maybe"> Maybe</label>
+  <label for="NotSure"><input type="radio" id="NotSure" name="Defenitely" value="Not sure"> Not sure</label>
+  <p>What is your favorite feature of freeCodeCamp?</p>
+  <select id="features" name="features" >
+    <option value="">Select an option</option>
+    <option value="1">Challanges</option>
+    <option value="2">Projects</option>
+    <option value="3">Community</option>
+    <option value="4">Open Source</option>
+  </select>
+  <p>What would you like to see improved? (Check all that apply)</p>
+  <label for="front"><input type="checkbox" id="front" name="front" value="Front-end Projects">Front-end Projects</label>
+  <label for="back"><input type="checkbox" id="back" name="front" value="Back-end Projects">Back-end Projects</label>
+  <label for="Visual"><input type="checkbox" id="Visual" name="front" value="Data Visualization">Data Visualization</label>
+    <label for="Challange"><input type="checkbox" id="Challange" name="front" value="Challanges">Challanges</label>
+  <label for="large"><textarea id="large"></textarea>
+  <label for="submit"><input id="submit" type="submit" ></label>
+  </form>
+</body>
