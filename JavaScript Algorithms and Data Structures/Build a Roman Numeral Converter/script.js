@@ -8,6 +8,7 @@ btn.addEventListener("click",()=>{
     output.style.border="4px solid red";
     output.style.fontSize="2.2rem";
     output.style.color="red";
+    output.style.backgroundColor="#ffadad";
     return;
   }
   else if(number.value<1){
@@ -16,6 +17,7 @@ btn.addEventListener("click",()=>{
     output.style.fontSize="2rem";
     output.style.height="6rem";
     output.style.color="red";
+    output.style.backgroundColor="#ffadad";
     return;
   }
   else if(number.value>3999){
@@ -24,6 +26,7 @@ btn.addEventListener("click",()=>{
     output.style.fontSize="2rem";
     output.style.height="6rem";
     output.style.color="red";
+    output.style.backgroundColor="#ffadad";
     return;
   }
   else{
