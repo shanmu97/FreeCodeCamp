@@ -1,0 +1,53 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color:#0a0a23;
+  color:white;
+  font-family:sans-serif;
+}
+h1{
+  text-align:center;
+  font-family:Times-new-Roman;
+  font-size:2.5rem;
+  margin-top:10rem;
+}
+.input{
+  border:4px solid white;
+  width:30rem;
+  margin:0 auto;
+}
+h2{
+  text-align:center;
+}
+#number{
+  display:block;
+  margin:0 auto;
+  width:25rem;
+  height:3rem;
+  border:2px solid white;
+  background-color:#0a0a23;
+  color:white;
+  font-size:2.5rem;
+  padding:6px;
+  margin-bottom:1.5rem;
+}
+#convert-btn{
+  display:block;
+  width:25rem;
+  height:3rem;
+  margin:0 auto;
+  margin-bottom:2rem;
+  background:linear-gradient(#fecc4c,#ffac23);
+  font-size:1.5rem;
+}
+#output{
+  margin:0 auto;
+  border:4px solid white;
+  width:30rem;
+  height:4rem;
+  margin-top:2rem;
+  text-align:center;
+  font-size:3rem;
+  padding-top:0.6rem;
+}
